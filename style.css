@@ -12,7 +12,7 @@ header {
 
 .menu-toggle {
     display: block;
-	margin-right: 19.9em;
+	margin-left: 0.5em;
 	margin-top: 1.3em;
 }
 
@@ -57,18 +57,24 @@ header {
 }
 
 body {
+	/* display: flex;
+	flex-direction: column; */
 	margin: 0; /* Ta bort sidmarginaler */
 	padding: 0; /* Ta bort fyllnadsmarginaler */
+	min-height: 100vh;
 	background-image: url('Cv-bild.png'); /* Lägg till sökväg till din bild */
 	background-size: cover; /* Säkerställ att bilden täcker hela sidan */
 	background-position: center; /* Centrera bilden */
-	background-repeat: no-repeat; /* Undvik att upprepa bakgrundsbilden */
+	/* background-repeat: no-repeat; Undvik att upprepa bakgrundsbilden */
   }
 
+  /* .background-pic {
+	height: 100vh;
+  } */
 
 main {
 	display: flex;
-	height: 25em;
+	height: 100vh;
 }
 
 footer {
