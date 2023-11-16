@@ -79,13 +79,31 @@ main {
 
 footer {
 	display: flex;
-	height: 6.5em;
-
+	height: 8.5em;
+	justify-content: center;
 	background-color: rgb(54, 54, 54);
 	
 }
 
-.contact, .h4 {
+.contact > * {
+	display: flex;
+	flex-direction: column;
 	color: white;
-	margin-top: 0;
+	padding-top: 0.2em;
+	text-align: center;
+	margin: 0;
+	align-items: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: small;
+}
+
+.instagram-logo {
+	width: 3em;
+	height: 3em;
+}
+
+.facebook-logo {
+	width: 2.2em;
+	height: 2.2em;
+	padding-top: 0.4em;
 }
