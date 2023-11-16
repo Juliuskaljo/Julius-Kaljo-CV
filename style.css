@@ -74,7 +74,7 @@ body {
 
 main {
 	display: flex;
-	height: 100vh;
+	height: 80vh;
 }
 
 footer {
@@ -99,11 +99,28 @@ footer {
 
 .instagram-logo {
 	width: 3em;
-	height: 3em;
+	height: 3.4em;
+	padding-top: 0.4em;
 }
 
 .facebook-logo {
 	width: 2.2em;
 	height: 2.2em;
 	padding-top: 0.4em;
+	padding-left: 0.3em;
+}
+
+.linkedin-logo {
+	width: 3.5em;
+	height: 3.5em;
+	padding-top: 0.3em;
+}
+
+.github-logo {
+	width: 2.3em;
+	height: 2.3em;
+}
+
+.social-media {
+	flex-direction: row;
 }
