@@ -1,0 +1,84 @@
+header {
+	display: flex;
+	background-color: rgb(54, 54, 54);
+	width: 100vw;
+	height: 0em;
+	margin: 0;
+	padding: 0;
+	justify-content: space-between;
+}
+
+
+
+.menu-toggle {
+    display: block;
+	margin-left: 0.9em;
+	margin-top: 1.3em;
+}
+
+.bar {
+	display: flex;
+    width: 2.5em;
+    height: 0.3em;
+    background-color: rgb(228, 228, 228);
+    margin: 4px 0;
+	border-radius: 1em;
+}
+
+.menu {
+    list-style: none;
+    display: none;
+	
+}
+
+.menu li {
+    margin: 10px;
+	margin-right: 1em;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 2.5em;
+    background-color: rgb(80, 80, 80);
+    width: 50vw;
+    padding: 10px;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	margin: 0; /* Ta bort sidmarginaler */
+	padding: 0; /* Ta bort fyllnadsmarginaler */
+	background-image: url('Cv-bild.png'); /* Lägg till sökväg till din bild */
+	background-size: cover; /* Säkerställ att bilden täcker hela sidan */
+	background-position: center; /* Centrera bilden */
+	background-repeat: no-repeat; /* Undvik att upprepa bakgrundsbilden */
+  }
+
+
+main {
+	display: flex;
+	height: 25em;
+}
+
+footer {
+	display: flex;
+	height: 6.5em;
+
+	background-color: rgb(54, 54, 54);
+	
+}
+
+.contact, .h4 {
+	color: white;
+	margin-top: 0;
+}
