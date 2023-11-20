@@ -1,18 +1,13 @@
 header {
 	display: flex;
-	background-color: rgb(54, 54, 54);
-	width: 100vw;
-	height: 0em;
-	margin: 0;
-	padding: 0;
-	justify-content: space-between;
+	background-color: rgb(0, 0, 0 ,0.0);
+	
+	
 }
-
-
 
 .menu-toggle {
     display: block;
-	margin-left: 0.5em;
+	margin-left: 1em;
 	margin-top: 1.3em;
 }
 
@@ -57,31 +52,24 @@ header {
 }
 
 body {
-	/* display: flex;
-	flex-direction: column; */
-	margin: 0; /* Ta bort sidmarginaler */
-	padding: 0; /* Ta bort fyllnadsmarginaler */
+	flex-direction: column;
+	margin: 0; 
+	padding: 0; 
 	min-height: 100vh;
-	background-image: url('Cv-bild.png'); /* Lägg till sökväg till din bild */
-	background-size: cover; /* Säkerställ att bilden täcker hela sidan */
-	background-position: center; /* Centrera bilden */
-	/* background-repeat: no-repeat; Undvik att upprepa bakgrundsbilden */
-  }
-
-  /* .background-pic {
-	height: 100vh;
-  } */
-
-main {
-	display: flex;
-	height: 85vh;
-}
+	background-image: url('Cv-bild.png'); 
+	background-size: cover; 
+	background-position: center; 
+	background-repeat: no-repeat;
+  } 
 
 footer {
 	display: flex;
+	align-items: center;
 	height: 8.5em;
+	/* width: 100vw; */
 	justify-content: center;
 	background-color: rgb(54, 54, 54);
+	margin-top: 129%;
 	
 }
 
@@ -92,7 +80,6 @@ footer {
 	padding-top: 0.2em;
 	text-align: center;
 	margin: 0;
-	align-items: center;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: small;
 }
@@ -100,25 +87,24 @@ footer {
 .instagram-logo {
 	width: 3em;
 	height: 3.4em;
-	padding-top: 0.4em;
 }
 
 .facebook-logo {
 	width: 2.2em;
 	height: 2.2em;
-	padding-top: 0.4em;
+	padding-top: 0.6em;
 	padding-left: 0.3em;
 }
 
 .linkedin-logo {
 	width: 3.5em;
 	height: 3.5em;
-	padding-top: 0.3em;
 }
 
 .github-logo {
 	width: 2.3em;
 	height: 2.3em;
+	padding-top: 0.5em;
 }
 
 .social-media {
