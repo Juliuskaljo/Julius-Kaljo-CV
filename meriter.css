@@ -1,0 +1,110 @@
+header {
+	display: flex;
+	height: 5em;
+	background-color: rgba(52, 39, 160, 0.8);
+	
+	
+}
+
+.menu-toggle {
+    display: block;
+	margin-left: 1em;
+	margin-top: 1.3em;
+}
+
+.bar {
+	display: flex;
+    width: 2.5em;
+    height: 0.3em;
+    background-color: rgb(228, 228, 228);
+    margin: 4px 0;
+	border-radius: 1em;
+}
+
+.menu {
+    list-style: none;
+    display: none;
+	
+}
+
+.menu li {
+    margin: 10px;
+	margin-right: 1em;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3.9em;
+    background-color: rgb(80, 80, 80);
+    width: 50vw;
+    padding: 10px;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	opacity: 0.8;
+}
+
+body {
+	flex-direction: column;
+	margin: 0; 
+	padding: 0; 
+	min-height: 100vh;
+	
+  } 
+
+footer {
+	display: flex;
+	align-items: center;
+	height: 8.5em;
+	/* width: 100vw; */
+	justify-content: center;
+	background-color: rgb(54, 54, 54);
+	margin-top: 129%;
+	
+}
+
+.contact > * {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	padding-top: 0.2em;
+	text-align: center;
+	margin: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: small;
+}
+
+.instagram-logo {
+	width: 3em;
+	height: 3.4em;
+}
+
+.facebook-logo {
+	width: 2.2em;
+	height: 2.2em;
+	padding-top: 0.6em;
+	padding-left: 0.3em;
+}
+
+.linkedin-logo {
+	width: 3.5em;
+	height: 3.5em;
+}
+
+.github-logo {
+	width: 2.3em;
+	height: 2.3em;
+	padding-top: 0.5em;
+}
+
+.social-media {
+	flex-direction: row;
+}
