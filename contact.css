@@ -54,6 +54,7 @@ header {
 	border-bottom-right-radius: 1em;
 	text-align: center;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	opacity: 0.9;
 }
 
 body {
@@ -74,7 +75,7 @@ body {
 footer {
 	display: flex;
 	align-items: center;
-	height: 8.5em;
+	height: 6.5em;
 	justify-content: center;
 	background-color: rgb(97, 125, 100);
 	margin-top: 129%;
